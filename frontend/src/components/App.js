@@ -1,5 +1,12 @@
+import { useEffect } from "react";
+
 const App = () => {
-  return (<p>Hello, world!</p>
+  useEffect(() => {
+    fetch('http://localhost:3001/initial').then(response => response.json()).then(data => console.log(data))
+  }, []);
+
+  return (
+    <p>Hello, world!</p>
   );
 }
 
