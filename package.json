@@ -1,0 +1,17 @@
+{
+	"name": "crypto-trading-bot",
+	"version": "0.0.0",
+	"main": "",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FixxxarN/crypto-trading-bot.git"
+	},
+	"author": "André Topalovic Törnström",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/FixxxarN/crypto-trading-bot/issues"
+	},
+	"homepage": "https://github.com/FixxxarN/crypto-trading-bot#readme",
+	"description": "Crypto trading bot"
+}
