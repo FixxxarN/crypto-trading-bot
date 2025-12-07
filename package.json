@@ -2,7 +2,9 @@
 	"name": "crypto-trading-bot",
 	"version": "0.0.0",
 	"main": "",
-	"scripts": {},
+	"scripts": {
+		"start": "nodemon src/index.ts"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/FixxxarN/crypto-trading-bot.git"
@@ -13,5 +15,16 @@
 		"url": "https://github.com/FixxxarN/crypto-trading-bot/issues"
 	},
 	"homepage": "https://github.com/FixxxarN/crypto-trading-bot#readme",
-	"description": "Crypto trading bot"
+	"description": "Crypto trading bot",
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/node": "^24.10.1",
+		"nodemon": "^3.1.11",
+		"ts-node": "^10.9.2",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	}
 }
