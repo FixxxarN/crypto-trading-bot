@@ -8,7 +8,7 @@
 		"moduleResolution": "node10",
 
 		"lib": ["ES6"],
-		"types": ["node"],
+		"types": ["node", "jest"],
 
 		"sourceMap": true,
 		"declaration": true,
