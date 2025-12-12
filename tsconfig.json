@@ -3,7 +3,7 @@
 		"rootDir": "./src",
 		"outDir": "./dist",
 
-		"module": "commonjs",
+		"module": "es6",
 		"target": "es6",
 		"moduleResolution": "node10",
 
@@ -20,7 +20,12 @@
 		"noUncheckedIndexedAccess": true,
 		"exactOptionalPropertyTypes": true,
 		"isolatedModules": false,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+
+		"strictPropertyInitialization": false
 	},
 	"include": ["src"]
 }
